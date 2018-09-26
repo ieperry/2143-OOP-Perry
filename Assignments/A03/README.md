@@ -1,6 +1,8 @@
-**Isha Perry
-9/28/18
-2143 OOP**
+**Isha Perry**
+
+**9/28/18**
+
+**2143 OOP**
 
 1. **Class** - an extensible program-code-template for creating objects, 
                providing member variables and member functions or methods
