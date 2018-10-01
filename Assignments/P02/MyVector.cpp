@@ -201,7 +201,7 @@ int& MyVector::operator[](int i)
 * Param: an initialized vector in main
 * Return: a vector that holds the same values
 */
-/*MyVector MyVector::operator=(MyVector& V)
+/*MyVector MyVector::operator=(const MyVector& V)
 {
   MyVector vTemp;
   
