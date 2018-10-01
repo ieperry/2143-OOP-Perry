@@ -100,8 +100,14 @@ int main()
   V = V / W; 
   cout << endl << "V: " << V << endl;
 
-  //Works without other operators
- //MyVector V2 = V; 
+  MyVector V2 = V; 
+
+  //Checks V and V2 to see if they are equal
+  if (V == V2)
+  {
+    cout << endl << "V2: " << V2 << endl; 
+    cout << "The '=' operator works!" <<  endl; 
+  }
 
 	return 0; 
 }
