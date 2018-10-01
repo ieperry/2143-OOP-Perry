@@ -7,15 +7,6 @@
 
 #include <iostream>
 
-/*
-*Initializes the class for MyVector, and
-*lists all of it's methods
-*
-*Isha Perry
-*/
-
-#include <iostream>
-
 using namespace std;
 
 class MyVector
