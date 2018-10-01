@@ -201,19 +201,18 @@ int& MyVector::operator[](int i)
 * Param: an initialized vector in main
 * Return: a vector that holds the same values
 */
-/*MyVector MyVector::operator=(const MyVector& V)
-{
-  MyVector vTemp;
-  
+void MyVector::operator=(const MyVector& V) 
+{ 
   //Loops through vector
   for (int i = 0; i < index + 1; i++)
   {
     //Places values of vector to the temp
-    vTemp.pushBack(V[i]);  
+    popBack(vSize);    
   }
 
-  return vTemp; 
-}*/
+  pushBack(V.vPointer, V.index); 
+ 
+}
 
 /*
 * An overload operator that allows one vector
