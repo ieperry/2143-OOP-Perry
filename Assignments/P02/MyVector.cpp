@@ -60,6 +60,13 @@ void MyVector::pushBack(int item)
 	 vPointer[index] = item; 
   } 
 
+  /*
+  * Puts the values from any array to the
+  * vector array.
+  *
+  * Param: an array; the index of the array 
+  * Return: None
+  */
   void MyVector::pushBack(int *arr, int arrSize) 
   {
     index++; 
