@@ -62,7 +62,7 @@ public:
   //Works seperate from the addition operator
   //to the division operater and does work
   //when setting two vectors to equal one another
-  //MyVector operator=(MyVector& V);  
+  //MyVector operator=(const MyVector& V);  
 
   //Tests the equality of two vectors
   bool operator==(MyVector& V2); 
