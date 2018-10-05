@@ -1,4 +1,4 @@
-*
+/*
 * Course: CMPS 2143
 * Assignment: A04
 * Purpose: Slow the frame rate with given code
@@ -40,8 +40,11 @@ struct golCell {
 struct gameOfLife {
 	int Width;
 	int Height;
-	int frameCount; //Added code
+	
+	//Added code:
+	int frameCount; 
 	int frameRate;
+	
 RenderWindow Window;
 golCell** World;
 
