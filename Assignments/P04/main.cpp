@@ -9,7 +9,7 @@
 * print the board out, and play out the game using SFML.
 *
 * Isha Perry
-* 10/18/18
+* 10/19/18
 * github: ieperry
 */
 
@@ -414,39 +414,45 @@ public:
 	*/
 	void run(int gens)
 	{
-		int runTimes = 0; 
+		int runTimes = 0;
 
 		//Runs simulation
 		while (window.isOpen())
 		{
 			sf::Event event;
 
+			frameCount++;
+
+			//Displays world to screen
+			//My computer was too slow for the animation
+			//displayWorld();
+
 			while (window.pollEvent(event))
 			{
-				//Displays world to screen
-				displayWorld();
 
-				//Keep tracks of the amount of runs
-				runTimes++; 
-
-				if (event.type == sf::Event::Closed) 
+				if (event.type == sf::Event::Closed)
 				{
 					window.close();
 				}
+
 			}
 
-			//Sets the next world and game board
+			//Updates game board
 			nextGen();
 			runTimes++;
-			
+
 			//Closes window when the simulation at a certain point
 			if (runTimes == gens)
 			{
-				window.close(); 
+				break;
 			}
 
-			displayWorld();
-			
+			//Slows the frame rate by postponing the display
+			//if (frameCount % frameRate == 0)
+			//{
+			//
+			//displayWorld();
+			//}
 		}
 	}
 
