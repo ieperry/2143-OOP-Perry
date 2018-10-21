@@ -205,10 +205,15 @@ public:
 			for (int j = 0; j < rows; j++)
 			{
 				//Displays alive cells
-				if (gameBoard[j][i].isAlive == true) 
+				if (gameBoard[j][i].isAlive == true)
 				{
 					world[i][j].rect.setFillColor(sf::Color::Red);
-					world[i][j].rect.setOutlineColor(sf::Color::Black); 
+					world[i][j].rect.setOutlineColor(sf::Color::Black);
+				}
+				else
+				{
+					world[i][j].rect.setFillColor(sf::Color::Cyan);
+					world[i][j].rect.setOutlineColor(sf::Color::Black);
 				}
 			}
 		}
