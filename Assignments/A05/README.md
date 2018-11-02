@@ -1,6 +1,7 @@
 **Drementing:**
 
-![2018-10-30](https://d1wuojemv4s7aw.cloudfront.net/items/2T0T3i3Q0S2j2j03391d/Screen%20Recording%202018-10-30%20at%2003.49.04.79%20PM.gif?X-CloudApp-Visitor-Id=3197550&v=80672492)
+![decrement.gif](https://cl.ly/0b16d14f0e27)
 
-**Increasing:**
+**Incrementing:**
 
+![increment.gif](https://cl.ly/6d76d7bf8101/Screen%20Recording%202018-11-01%20at%2007.13.43.34%20PM.gif)
